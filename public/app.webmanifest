@@ -1,0 +1,48 @@
+{
+  "name": "Timetabl",
+  "display": "standalone",
+  "start_url": "/app",
+  "icons": [
+    {
+      "src": "logos/favicon.svg",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "logos/maskable_icon.png",
+      "sizes": "1024x1024",
+      "purpose": "maskable"
+    },
+    {
+      "src": "logos/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "background_color": "#97cdf5",
+  "theme_color": "#97cdf5",
+  "description": "Timetabl is one place for your timetable, daily notices and homework.",
+  "shortcuts": [
+    {
+      "name": "Open Home",
+      "short_name": "Home",
+      "description": "View the periods you have today",
+      "url": "/app",
+      "icons": [{ "src": "/icons/home.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Open Barcodes",
+      "short_name": "Barcodes",
+      "description": "Displays your barcodes for scanning in to the school",
+      "url": "/app/barcodes",
+      "icons": [{ "src": "/icons/barcodes.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Open Announcements",
+      "short_name": "Announcements",
+      "description": "View your Daily Notices and Timetabl News",
+      "url": "/app/announcements",
+      "icons": [{ "src": "/icons/announcements.png", "sizes": "96x96" }]
+    }
+  ]
+}
